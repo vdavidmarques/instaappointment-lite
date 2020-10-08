@@ -1,6 +1,12 @@
 # consultoria-vida-segura
 
-Tema em Wordpress para o site Consultoria Vida Segura. Uma empresa que divulga planos de Saúde
+Edição de tema gratuito para Wordpress. 
+
+Tema original: instaappointment-lite
+
+Encomenda: Site Consultoria Vida Segura. 
+Uma empresa que divulga planos de Saúde
+
 Linguagens:
 - Wodpress
 - Html5
