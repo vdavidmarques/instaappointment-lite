@@ -1,0 +1,224 @@
+@import 'helpers/variaveis.scss';
+@import 'helpers/mixins.scss';
+
+/*header*/
+  @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+  body.page-template-template-front-page-php #main{margin-top:0 !important;}
+  .page-template-template-front-page-php #header_wrap {padding: 0;margin: 0;left: 0; position: absolute; right: 0; z-index: 9999;background: none; }
+  #header {background-color: transparent;padding: 0;transition: height 0.3s ease 0s, line-height 0.3s ease 0s;}
+  #header_wrap{left: 0; position: absolute;right: 0; width: 100%; z-index: 999; background: none;    margin-bottom: 20px; }
+  .skehead-headernav{ left: 0;top: 0;width: 100%;z-index: 999;  }
+  #logo {transition: height 0.3s ease 0s, line-height 0.3s ease 0s;position: relative;padding: 0;}
+  #logo #site-title {  margin: 0px;  font-size: 18px;}
+  #logo #site-title a { color: #FFFFFF;display: block; font-size: 30px; font-weight: 700; line-height: normal; margin-top: 15px; text-decoration: none; text-transform: capitalize;}
+  #logo #site-description {color: #ffffff; font-size: 14px; font-weight: 400; line-height: 14px; }
+  .logo{width: 100%; height: 110px;object-fit: contain;}
+  #skehead .sub-menu{display:none;}
+  .bottom-shadow { background: url("images/header_shadow.png") no-repeat scroll 0 0 transparent;  display: block;  height: 25px;  margin-bottom: 15px;  margin-top: -10px;  position: relative;  width: 869px;  }
+
+
+  #header-top .social_icon {padding:11px 0 10px;}
+  #header-top .row-fluid .span5 {height: 45px;}
+  #header-top {background-color: rgba(0, 0, 0, 0.5);height: 45px; padding:0;} 
+  #header-top  [class*="span"]{min-height:inherit;}
+  .topbar_info {padding:10px 20px;float: left;}
+  .topbar_info .head-phone > a { color: $cor-template-original;font-size: 14px;font-weight: 400;margin-left: 6px;-webkit-transition:all .3s ease 0s;-moz-transition: all .3s ease 0s;-o-transition: all .3s ease 0s;transition: all .3s ease 0s; }
+  .topbar_info:hover a,.topbar_info:hover i{color:#fff;}
+  .header-cart { background: url("images/cart.png") no-repeat scroll left center rgba(0, 0, 0, 0); height: 25px; position: relative; width: 30px; float: right; } 
+  .header-cart > a {background: none repeat scroll 0 0 #1abc9c; border-radius: 15px; color: #fff; display: block; font-size: 11px; height: 14px; line-height: 13px; position: absolute; right: 0; text-align: center; top: -5px; width: 14px;} 	
+  #header-top .flag-icons{border-right: 1px solid #fcd02d;float: left; padding: 10px 20px; width: 145px;}
+  #wrapper{word-wrap:break-word;}
+  #wrapper .instaapp-front-bgimg img{max-width:100%;}
+  .top_search {float: left; }
+  #header-top .nav-search-icon {line-height: 0; list-style-type: none; margin: 0; text-align: left; }
+  .nav-search-icon > li {display: inline-block; margin: 0; }
+  #header-top .top_search fieldset {margin-bottom: 0; position: relative;margin-top: -8px; }
+  #header-top #header-searchform .fa-search {color:#ffffff; display: inline-block; margin-top: -6px; position: absolute; right: 15px; top: 50%; }
+  .dd-toggle.fa.fa-angle-down {background-color: $cor-template-original;color: #FFFFFF;padding: 1px 4px;}
+  .head-phone {color: $cor-template-original;font-size: 14px;font-weight: 300;-webkit-transition:all .3s ease 0s;-moz-transition: all .3s ease 0s;-o-transition: all .3s ease 0s;transition: all .3s ease 0s;}
+  .head-mail {color: $cor-template-original; font-size: 14px; font-weight: 300; position: relative; top: -1px; -webkit-transition:all .3s ease 0s;-moz-transition: all .3s ease 0s;-o-transition: all .3s ease 0s;transition: all .3s ease 0s; }
+  .topbar_info_mail {padding:10px 21px;float: left; border-right: 1px solid #fcd02d;}
+  .topbar_info_mail .fa-envelope {color: $cor-template-original;font-size: 18px; margin-right: 5px; }
+  .topbar_info_mail .head-mail > a {color: $cor-template-original; font-size: 14px; font-weight: 400; margin-left: 6px;-webkit-transition:all .3s ease 0s;-moz-transition: all .3s ease 0s;-o-transition: all .3s ease 0s;transition: all .3s ease 0s;}
+  #skenav  #menu-main ul.sub-menu a .fa-caret-down:before,#skenav  #menu-main ul.children a .fa-caret-down:before{display: none; }
+  #skenav  #menu-main .sf-with-ul .fa-caret-down:before {margin-left: 10px;}
+  #front-content-box {color: $cor-template-original; font-size: 14px; font-weight: 400; }
+
+  /* Header Flag Style */
+  #header-top .pull-right {width: auto;float: left; list-style: none outside none; margin: 0; position: relative;text-align: center; }
+  #header-top .pull-right p{margin-bottom:0;}
+  #header-top .dropdown-menu {background-color: #262626; display: none; font-size: 14px; left: -20px; list-style: none outside none; margin: 10px 0 0;position: absolute; width: 185px; z-index: 99999; }
+  #header-top .dropdown-menu.langs > li { margin:0; text-align: center;line-height: 35px; }
+  #header-top .pull-right .caret { border-color: #FFFFFF transparent; border-style: solid solid dotted; border-width: 5px 5px 0; display: inline-block;height: 0; margin-left: 6px; vertical-align: middle; width: 0; margin-top: -2px; }
+  .dropdown-toggle > span {margin: 0 6px; position: relative;font-size: 14px;font-weight: 400; }
+  #header-top .fa-angle-down {font-size: 13px; }
+  .dropdown-toggle.select-lang{cursor: pointer;color: #262626; }
+  #header.skehead-headernav.skehead-headernav-shrink #logo{background-color: inherit;}
+  #header.skehead-headernav.skehead-headernav-shrink{position: fixed;transition: height 0.3s ease 0s, line-height 0.3s ease 0s;padding-bottom: 10px;height:auto;background-color: #fff;box-shadow: 6px 4px 5px 2px #00000012;}
+  #header.skehead-headernav.skehead-headernav-shrink ul.menu {margin: 10px 0 0;}
+  #header.skehead-headernav.skehead-headernav-shrink ul ul {margin-top: 10px;}
+  #header.skehead-headernav.skehead-headernav-shrink #logo #site-title a {font-size: 24px;margin-top: -3px;letter-spacing: -0.2px;}
+  #header.skehead-headernav.skehead-headernav-shrink .logo_inner > a {margin-top: 1px;}
+  .logo_inner > a {margin-top: 0px; margin-left: auto; margin-right: auto;}
+
+  #header.skehead-headernav.skehead-headernav-shrink #skenav ul li a {font-size: 14px;line-height:normal;padding: 4px 20px;border: 1px solid transparent; color: $cor-padrao!important;}
+  #header.skehead-headernav.skehead-headernav-shrink #skenav ul li a:hover{color: $cor-secundaria;}
+  #header.skehead-headernav.skehead-headernav-shrink #skenav  ul ul a{line-height:18px;padding: 17px 15px;}
+  #header.skehead-headernav.skehead-headernav-shrink #skenav li > a:hover,
+  #header.skehead-headernav.skehead-headernav-shrink #skenav li.current-menu-item.page_item.current_page_item > a {color: #262626;}
+  #skenav ul ul li:last-child, #skenav ul ul li:last-child a{border-radius: 0 0 3px 3px;}
+
+  #header.skehead-headernav.skehead-headernav-shrink #skehead .nav-search-icon {line-height:68px;}
+  #header-top .dropdown-menu.langs a {border-bottom: 1px dotted rgba(0, 0, 0, 0.15); color: #FFFFFF; display: block; padding: 2px 20px; text-align: left;transition: all 0.3s linear 0s; -webkit-transition: all 0.3s linear 0s;moz-transition: all 0.3s linear 0s; -o-transition: all 0.3s linear 0s;} 
+  #header-top .dropdown-menu.langs img {margin-right: 13px; }
+  #header-top .dropdown-menu.langs span {display: inline-block;position: relative;top: -2px;}
+  .head-slide-wrap {position: relative;display: block; background-color:#f8f8f8;}
+
+  /* =Header Form Style
+  --------------------------------------------------------------*/
+  .header-form-wrap {position: absolute; top: 0; width: 100%; z-index: 99; }
+  .header-form-wrap a,.wpcf7-submit,form input[type="submit"],.page-template-template-appointment-php form input{background:none repeat scroll 0 0 #cc0021;border-radius: 3px;border: none;cursor: pointer; display: inline-block;font-family: 'Open Sans'; font-size: 24px; font-weight: 400;padding: 18px 0;width:66%;color: #FFFBFC;position: relative;transition: all 0.3s linear 0s;-webkit-transition: all 0.3s linear 0s;-moz-transition: all 0.3s linear 0s;-o-transition: all 0.3s linear 0s;text-align: center;}
+  .head_form_main a {left: 20px;}
+  .header-form-wrap .wpcf7 br{display: none;}
+  .header-form-wrap .head_form_main.span5 {float: right;margin-top: 285px; position: relative;}
+  .wpcf7-form p {margin: 0;}
+  .form-title-main {color: #585858; font-size: 22px; font-weight: 700;line-height: 1;margin: 0; padding: 0; text-transform: uppercase; }
+
+  .fa-email:before{
+    content: "\f0e0";
+    vertical-align: middle;
+  }
+  .fa-whatsapp:before{        
+    font-size: 1.2em;
+    vertical-align: top;
+  }
+
+  #header-top .social_icon a{
+    color: $cor-padrao;
+    letter-spacing: 0.5px;
+      
+    .fa{
+      font-size: 22px;    
+      color: $cor-padrao;  
+      font-family: 'FontAwesome';
+    }
+
+    .fa-email{
+      color: #2196F3;
+    }
+
+    .fa-whatsapp{
+      color: #26d367;
+    }
+
+    .fa-facebook{
+      color: #3B5998;
+    }
+
+    .fa-instagram{
+      color:#E1306C;
+    }
+
+    .texto{
+      font-family: 'Montserrat', 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      display: none;      
+    }   
+  }
+  .social_icon .fb-icon .fa-facebook:before {
+    content: "\f09a";
+  } 
+
+  .voltar{
+    width: 50%;
+    float: right;
+    text-align: right;
+  }
+
+  /*Menu Mobile*/
+    #skehead .row-fluid{
+      display: flex;
+    }
+    .sktmenu-toggle{
+      background-color: $cor-padrao!important;
+    }
+    #skenav .instaapp-mob-menu li a{
+      line-height: 3.5;
+    }
+    .instaapp-mob-menu li{
+      border-bottom: 1px solid #e4e4e4;
+    }
+  
+  /*Fim Mobile*/
+
+   /*Imagem Principal Home */ 
+  #metaslider-id-105{
+    float: right;
+
+    ul li{
+      margin-right: 0!important;
+    }
+  }
+  .caption-slider-home{    
+    z-index: 99;
+
+      h1{
+        color: $cor-padrao;
+        font-weight: 800;
+      }
+      p{
+        color:$cor-padrao;   
+        font-size: 2em;
+        line-height: 1.5;
+        margin-top: 25px; 
+      }
+      button{
+        background-color: $cor-padrao;
+        color: #fff;
+        border: inherit;      
+        border-radius: 4px;
+        font-weight: 800;
+        font-size: 1.2em;
+        padding: 18px;            
+
+        i{
+          vertical-align: middle;    
+        }
+      }
+  }
+  
+  /* Fim Imagem Principal Home */ 
+
+  /*Slider Planos de Saúde*/   
+    .slick-dots{
+      display: none!important;
+    }
+    .wppsac-post-carousel.design-1 .wppsac-post-image-bg{
+      border: 1px solid #F1F1F1;
+      border-radius: 20px;
+      background-color: #FBF8F8;
+      box-shadow: 0px 6px 12px #1669b114;
+    }
+    .wppsac-post-carousel.design-1 .wppsac-post-image-bg img{
+      padding: 10px;
+    } 
+    .wppsac-post-carousel button.slick-arrow{
+      width: 64px;
+      height: 64px;
+    } 
+    .wppsac-post-carousel.design-1 .wppsac-post-image-bg a:focus{
+      outline: none !important;
+      border: none!important;
+    }  
+  /* Fim Slider Planos de Saúde*/
+
+  /*Breadcrumb*/
+  .bread-title-holder .cont_nav_inner p a{
+    color: $cor-padrao;
+  }
+  /*Fim breadrumb*/
+
+/*fim header*/
+
